@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sohel — Data Analyst &amp; Actuarial Analyst</title>
+  <meta name="description"
+    content="Portfolio of Sohel — data analyst and actuarial analyst in training, based in Pune, India.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a href="#top" class="nav-mark">S.</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Pune, India</p>
+        <h1>Sohel</h1>
+        <p class="hero-role">Data Analyst <span class="dot">·</span> Actuarial Analyst <em>in training</em></p>
+        <p class="hero-bio">M.Sc. Statistics graduate building a career at the intersection of data
+          analytics and actuarial science — preparing CM1, CS1 &amp; CB1 with the Institute of
+          Actuaries of India while shipping analytics projects end to end.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">View my work</a>
+          <a href="resume.pdf" class="btn btn-ghost">Résumé ↓</a>
+        </div>
+      </div>
+      <div class="hero-figure" aria-hidden="true">
+        <svg viewBox="0 0 480 360" class="curve-svg" preserveAspectRatio="xMidYMid meet">
+          <line x1="30" y1="300" x2="450" y2="300" class="axis-line" />
+          <line x1="240" y1="66" x2="240" y2="300" class="mean-line" />
+          <path d="M40,300 C100,300 122,78 240,66 C358,78 380,300 440,300" class="bell-curve" pathLength="1" />
+          <circle cx="150" cy="272" r="3" class="data-dot" />
+          <circle cx="205" cy="150" r="3" class="data-dot" />
+          <circle cx="285" cy="140" r="3" class="data-dot" />
+          <circle cx="335" cy="265" r="3" class="data-dot" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <p class="eyebrow">About</p>
+      <div class="about-grid">
+        <p class="about-lead reveal">Quantitative by training,<br>curious by nature.</p>
+        <div class="about-body reveal">
+          <p>I completed my M.Sc. in Statistics in 2025 and passed the IAI's ACET with distinction —
+            the entry exam into India's actuarial profession. Since then I've been building a
+            practical analytics skill set on top of that theory: SQL, Python, Power BI and cloud
+            data warehousing, alongside three actuarial papers I'm sitting in November 2026.</p>
+          <p>Before this, I spent three years freelance-tutoring mathematics on Chegg, which is
+            where the habit of explaining numbers clearly — not just computing them — started. I'm
+            currently based in Pune and open to data analyst, BI analyst and actuarial trainee
+            roles across the BFSI sector.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <p class="eyebrow">Selected Work</p>
+      <div class="work-grid">
+
+        <article class="work-card reveal">
+          <div class="work-head">
+            <h3>ChurnLens</h3>
+            <span class="tag-status live">Live</span>
+          </div>
+          <p>A customer-churn analysis pipeline built on 165,000+ banking records — combining PCA,
+            logistic regression and XGBoost for prediction, K-Means for customer segmentation, and
+            Kaplan–Meier survival analysis to model retention risk over time.</p>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>scikit-learn</li>
+            <li>XGBoost</li>
+            <li>SMOTE</li>
+            <li>SQL</li>
+          </ul>
+          <a href="https://github.com/IamDataExplorer/ChurnLens" class="work-link">View repository →</a>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-head">
+            <h3>Urban Threads</h3>
+            <span class="tag-status progress">In progress</span>
+          </div>
+          <p>An omnichannel analytics build for a fictional Indian fashion retailer — a cloud data
+            warehouse on Azure Database for MySQL feeding a Power BI reporting layer, built from
+            scratch end to end.</p>
+          <ul class="tag-list">
+            <li>Azure MySQL</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>ETL</li>
+          </ul>
+          <span class="work-link disabled">Repository coming soon</span>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <p class="eyebrow">Skills</p>
+      <div class="skills-grid">
+        <div class="skill-col reveal">
+          <h3>Data &amp; BI</h3>
+          <ul>
+            <li>SQL — MySQL, PostgreSQL</li>
+            <li>Python — pandas, scikit-learn</li>
+            <li>Power BI — DAX, data modelling</li>
+            <li>Microsoft Excel — advanced</li>
+            <li>Microsoft Fabric — DP-600, in progress</li>
+          </ul>
+        </div>
+        <div class="skill-col reveal">
+          <h3>Actuarial</h3>
+          <ul>
+            <li>ACET — passed with distinction</li>
+            <li>CM1 — Actuarial Mathematics</li>
+            <li>CS1 — Actuarial Statistics</li>
+            <li>CB1 — Business Finance</li>
+            <li>Sitting: November 2026, IAI</li>
+          </ul>
+        </div>
+        <div class="skill-col reveal">
+          <h3>Statistical Methods</h3>
+          <ul>
+            <li>Regression &amp; hypothesis testing</li>
+            <li>Survival analysis</li>
+            <li>Bayesian inference</li>
+            <li>Clustering &amp; dimensionality reduction</li>
+            <li>Time series</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="credentials" id="credentials">
+      <p class="eyebrow">Credentials</p>
+      <table class="ledger-table reveal">
+        <thead>
+          <tr>
+            <th>Credential</th>
+            <th>Issuer</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ACET</td>
+            <td>Institute of Actuaries of India</td>
+            <td class="status-gold">Distinction</td>
+          </tr>
+          <tr>
+            <td>PL-300, Power BI Data Analyst</td>
+            <td>Microsoft</td>
+            <td>Certified</td>
+          </tr>
+          <tr>
+            <td>Data Analyst in Power BI</td>
+            <td>DataCamp</td>
+            <td>Certified · 50 hrs</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>365 Data Science</td>
+            <td>Certified</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>IBM SkillsBuild</td>
+            <td>Certified</td>
+          </tr>
+          <tr>
+            <td>NumPy</td>
+            <td>365 Data Science</td>
+            <td>Certified</td>
+          </tr>
+          <tr>
+            <td>Git</td>
+            <td>365 Data Science</td>
+            <td>Certified</td>
+          </tr>
+          <tr>
+            <td>Excel Bootcamp &amp; Advanced Excel</td>
+            <td>Zero to Mastery</td>
+            <td>Certified</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2 class="reveal">Let's talk data.</h2>
+      <p class="reveal">Open to data analyst, BI analyst and actuarial trainee roles across
+        Pune and Mumbai. The fastest way to reach me is email.</p>
+      <div class="contact-links reveal">
+        <a href="mailto:sohelfshaikh@outlook.com">your.email@example.com</a>
+        <a href="www.linkedin.com/in/sohel-f-shaikh" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/IamDataExplorer" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Sohel · Built like a ledger, one clean row at a time.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
